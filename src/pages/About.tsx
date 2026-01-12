@@ -8,7 +8,7 @@ const About = () => {
       className="min-h-screen relative"
       style={{
         background:
-          "linear-gradient(to bottom, rgba(251, 207, 232, 0.4), rgba(255, 255, 255, 1))",
+          "linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(251, 207, 232, 0.4))",
       }}
     >
       <Navigation />
@@ -123,53 +123,49 @@ const About = () => {
             <div className="space-y-6 text-gray-800">
               <div>
                 <h3 className="text-xl font-semibold mb-2">
-                  i'm a pisces (ᴗ_ ᴗ。)88*."
+                  i'm a frontend developer ✨
                 </h3>
                 <p className="text-lg leading-relaxed">
-                  so i really value the compassion and empathy that comes with
-                  design thinking. i love collaborating with teams to help make
-                  people's lives easier through thoughtful design! ♡(ᴗ͈ˬᴗ͈)
+                  i build clean, scalable, and thoughtful web interfaces using
+                  React, Next.js & TypeScript. i love turning complex logic into
+                  smooth, simple experiences that just make sense. ♡
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">
-                  i'm currently @ meta
+                  i'm currently freelancing 🌍
                 </h3>
                 <p className="text-lg leading-relaxed">
-                  designing experiences that enable businesses to grow through
-                  paid messaging! i love designing simple and delightful
-                  experiences to make things that may be overwhelming, a bit
-                  less daunting. 💬
+                  working with startups & clients to build dashboards,
+                  marketplaces, and real-time web apps. i enjoy owning features
+                  end-to-end — from architecture to UI, performance & tiny UX
+                  details that people actually notice. ⚡
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">
-                  when i'm not designing...
+                  previously @ dhunjam 🎧
                 </h3>
                 <p className="text-lg leading-relaxed">
-                  my interests include writing extremely honest yelp reviews
-                  (i'm yelp elite!), getting boba with 25% sugar & less ice,
-                  collecting sonny angels, and trying not to demote on valorant
-                  😭🤍 you can also find me watching kdramas/reality tv, going
-                  to concerts, obsessing over how cute peach & mochi are, or
-                  planning my next trip!
+                  worked as a solo frontend developer managing 4 dashboards —
+                  customer, host, admin & super admin. built real-time features
+                  with WebSockets, integrated Razorpay payments, and developed
+                  scalable component-based systems. also improved SEO &
+                  performance using SSR with Next.js. 🚀
                 </p>
               </div>
 
-              <div className="pt-4">
-                <p className="text-lg">
-                  🎀{" "}
-                  <a
-                    href="https://www.youtube.com/@SimranAwasthiYT"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline decoration-1 hover:text-pink-500 transition-colors font-semibold"
-                  >
-                    check out my korea vlog!
-                  </a>{" "}
-                  ⸜(｡˃ ᵕ ˂ )⸝
+              <div>
+                <h3 className="text-xl font-semibold mb-2">
+                  when i'm not coding…
+                </h3>
+                <p className="text-lg leading-relaxed">
+                  you'll probably find me building small AI projects,
+                  experimenting with cute UI ideas, or turning random thoughts
+                  into actual products just for fun. i love cozy aesthetics,
+                  clean layouts, and anything that feels soft but smart. 🌱
                 </p>
               </div>
             </div>
@@ -177,34 +173,68 @@ const About = () => {
             {/* Fun Facts Section */}
             <div className="space-y-6 pt-8">
               <h2 className="text-3xl font-bold text-gray-900">
-                some fun facts ˚(◞‸◟｡)ﾉ✧*｡
+                some fun facts ʕ(•ᴥ•)ʔ ✧*｡
               </h2>
 
               <div className="space-y-4 text-gray-800 text-lg">
                 <p>
-                  📚 i majored in hci, double-minored in cs (✨) & design at uc
-                  san diego!
+                  � b.tech in computer science (2023) — frontend developer by
+                  choice, not by accident
                 </p>
                 <p>
-                  ☀️ i'm a pisces sun, cancer moon, cancer rising 🌙 according
-                  to this site, my strengths are being "introspective,
-                  intuitive, versatile, ultra-sensitive, thoughtful and caring"
-                  ☀️
-                </p>
-                <p>☁️ mbti - esfj-t (but sometimes estj-t) / enneagram - 6w7</p>
-                <p>
-                  🍵 drinks of choice — matcha latte, jasmine milk tea, passion
-                  fruit green tea
+                  ⚛️ react, next.js, tailwind & typescript are my comfort zone
                 </p>
                 <p>
-                  🎵 recent concerts — twice, ive, fred again, wave to earth,
-                  hitc, edc, & ? 👀
+                  🚀 ex solo frontend dev at dhunjam — built 4 dashboards &
+                  real-time systems
                 </p>
                 <p>
-                  🍊 kdrama recs — when life gives you tangerines (if you want 2
-                  cry), a time called you, hometown cha cha cha, 20th century
-                  girl, youth of may, 25 21, lovely runner, and so many more
-                  tbh!!
+                  🌍 currently freelancing & building things for startups +
+                  myself
+                </p>
+                <p>
+                  🌱 i love building cute but actually helpful products (soft
+                  UI, real value)
+                </p>
+                <p>
+                  🧠 obsessed with turning tiny ideas into real, usable things
+                </p>
+                <p>
+                  ✨ big on clean layouts, smooth flows & "why does this feel so
+                  nice" UI
+                </p>
+                <p>
+                  🍳 love cooking & trying new recipes (soft life but productive
+                  life)
+                </p>
+                <p>🎥 love making content & sharing what i'm building</p>
+                <p>
+                  💡 i'm the "i'll figure it out" type — if there's a way, i'll
+                  find it
+                </p>
+                <p>
+                  🚀 turning ideas into reality is literally my favorite sport
+                </p>
+                <p>
+                  ☕ drinks of choice — coffee, iced coffee, cold coffee (yes
+                  there's a pattern)
+                </p>
+                <p>🎨 vibe — minimal, soft, aesthetic but functional</p>
+                <p>
+                  🛠 tools i live in — figma, cursor, chatgpt, vscode, chrome
+                  devtools
+                </p>
+                <p>
+                  💭 always thinking about — new side projects, tiny UX
+                  improvements & cozy product ideas
+                </p>
+                <p>
+                  🌷 personality — calm, detail-oriented, creative, slightly
+                  chaotic with ideas
+                </p>
+                <p>
+                  💫 weakness — starting 3 projects at once because "this one is
+                  also cute"
                 </p>
               </div>
             </div>
