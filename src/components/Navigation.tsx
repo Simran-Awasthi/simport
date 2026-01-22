@@ -3,7 +3,6 @@ import logoImage from "../assets/new.png";
 
 const Navigation = () => {
   const location = useLocation();
-  const isHome = location.pathname === "/";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
@@ -11,17 +10,18 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link
             to="/"
-            className="text-lg font-semibold hover:opacity-60 transition-opacity duration-300 flex items-center gap-1"
+            className="text-base sm:text-lg font-semibold hover:opacity-60 transition-opacity duration-300 flex items-center gap-1"
           >
-            <span>simran awasthi</span>
+            <span className="hidden sm:inline">simran awasthi</span>
+            <span className="sm:hidden">simran</span>
             <img
               src={logoImage}
               alt="logo"
-              className="w-5 h-5 object-contain"
+              className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
             />
           </Link>
 
-          <div className="flex items-center gap-3 text-lg font-medium">
+          <div className="flex items-center gap-2 sm:gap-3 text-base sm:text-lg font-medium">
             <Link
               to="/"
               className="relative inline-block text-gray-800 px-3 py-1 rounded-md"

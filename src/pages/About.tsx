@@ -1,29 +1,30 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import simranImage from "../assets/simran.jpeg";
+import emailImage from "../assets/email.png";
 
 const About = () => {
   return (
     <div
-      className="min-h-screen relative"
+      className="min-h-screen relative overflow-x-hidden"
       style={{
         background:
           "linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(251, 207, 232, 0.4))",
       }}
     >
       <Navigation />
-      <main className="min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-16 py-20">
+      <main className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-16 py-20 pt-32">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="space-y-2">
-                <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 leading-tight">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   nice to meet you! 🎀
                 </h1>
-                <p className="text-5xl sm:text-6xl font-bold text-gray-900 leading-tight">
+                <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   i'm simran, frontend
                 </p>
-                <p className="text-5xl sm:text-6xl font-bold text-gray-900 leading-tight">
+                <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   developer
                 </p>
               </div>
@@ -82,7 +83,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex justify-center lg:justify-end">
+            <div className="flex justify-center lg:justify-end relative">
               <div
                 className="relative"
                 style={{
@@ -100,10 +101,22 @@ const About = () => {
                   <img
                     src={simranImage}
                     alt="Simran"
-                    className="w-96 h-[28rem] object-cover"
+                    className="w-full sm:w-80 md:w-96 h-[24rem] sm:h-[26rem] md:h-[28rem] object-cover"
                   />
                 </div>
               </div>
+
+              {/* Email link at bottom left of image */}
+              <a
+                href="mailto:simranawasthi.cc@gmail.com"
+                className="absolute -top-6 left-4 sm:left-10 flex flex-col items-center gap-1 text-gray-800 hover:opacity-70 transition-opacity z-10"
+              >
+                <img
+                  src={emailImage}
+                  alt="email"
+                  className="w-32 h-32 sm:w-40 md:w-52 sm:h-40 md:h-52 object-contain transform rotate-12"
+                />
+              </a>
             </div>
           </div>
 

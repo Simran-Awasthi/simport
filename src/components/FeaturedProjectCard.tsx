@@ -150,10 +150,10 @@ const FeaturedProjectCard = ({
 
         {/* Project Info below the box */}
         <div className="px-2">
-          <h3 className="text-2xl sm:text-3xl font-semibold mb-4 leading-snug text-gray-800">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 leading-snug text-gray-800">
             {title}
           </h3>
-          <p className="text-gray-600 text-base sm:text-lg leading-relaxed font-light mb-6">
+          <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed font-light mb-6">
             {description}
           </p>
           {link && (
@@ -161,7 +161,7 @@ const FeaturedProjectCard = ({
               href={link}
               target={isExternal ? "_blank" : undefined}
               rel={isExternal ? "noopener noreferrer" : undefined}
-              className="relative inline-flex items-center gap-2 px-5 py-2.5 rounded-full border-2 bg-white text-gray-900 font-semibold text-base overflow-hidden group transition-all duration-300"
+              className="relative inline-flex items-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border-2 bg-white text-gray-900 font-semibold text-sm sm:text-base overflow-hidden group transition-all duration-300"
               style={{
                 borderColor:
                   customButtonColor || customShadowColor || "#6366f1",

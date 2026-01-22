@@ -7,13 +7,13 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div
-      className="min-h-screen relative"
+      className="min-h-screen relative overflow-x-hidden"
       style={{
         background: "#fefefe",
       }}
     >
       <Navigation />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <WorkSection />
         <FunSection />
