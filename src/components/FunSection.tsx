@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import FeaturedProjectCard from "./FeaturedProjectCard";
 import FlappyCollage from "./FlappyCollage";
+import SmaraCollage from "./SmaraCollage";
 
 const FunSection = () => {
   return (
@@ -18,6 +19,17 @@ const FunSection = () => {
         </div>
 
         <div className="space-y-16">
+          <FeaturedProjectCard
+            title="SMARA - AI Daily Life Co-Pilot"
+            description="A proactive AI assistant that plans your day, remembers your life, and keeps you on track — automatically. Smart onboarding, morning planning rituals, contextual reminders, and evening reflections that build deep personal memory."
+            customContent={<SmaraCollage />}
+            customBorderColor="#a78bfa"
+            customBackgroundColor="#e9d5ff"
+            customShadowColor="#a78bfa"
+            customButtonColor="#a78bfa"
+            hideDecorations={true}
+          />
+
           <FeaturedProjectCard
             title="Flappy Bird Game Played by AI"
             description="An AI-powered version of the classic Flappy Bird game where machine learning algorithms learn to play and master the game through reinforcement learning techniques."

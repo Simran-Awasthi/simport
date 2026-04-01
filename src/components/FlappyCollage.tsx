@@ -247,12 +247,11 @@ const FlappyCollage = () => {
   return (
     <div
       ref={containerRef}
-      className="relative w-full h-full min-h-[600px] flex items-center justify-center rounded-lg"
+      className="relative w-full h-full min-h-[600px] flex items-center justify-center rounded-lg overflow-hidden"
       style={{
         backgroundImage: `url(${mainFlappy})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        overflow: "visible",
       }}
     >
       {/* Semi-transparent overlay for better image visibility */}
